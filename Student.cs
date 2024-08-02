@@ -1,5 +1,5 @@
 namespace OOP {
-    class Student : Person {
+    class Student : Person, UniversityMemeber {
         private string _studentId;
 
         //default constructor
@@ -31,6 +31,10 @@ namespace OOP {
         //function that prints the name of the student studying
         public void Study() {
             Console.WriteLine($"Student {_name} is studying!");
+        }
+
+        public void DisplayRole() {
+            Console.WriteLine($"The role of {_name} is a student.");
         }
     }
 }

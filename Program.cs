@@ -17,6 +17,10 @@ namespace OOP {
 
             Person.PrintPersonDetails(s1);
             Person.PrintPersonDetails(pro1);
+
+            s1.DisplayRole();
+            pro1.DisplayRole();
+            p1.DisplayRole();
         }
     }
 }

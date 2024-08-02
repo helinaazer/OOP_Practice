@@ -1,7 +1,7 @@
 using System;
 
 namespace OOP {
-    class Person {
+    class Person : UniversityMemeber {
         protected string _name;
         protected int _age;
 
@@ -37,6 +37,10 @@ namespace OOP {
         //function that calls the display function of the passed object
         public static void PrintPersonDetails(Person p) {
             p.Display();
+        }
+
+        public void DisplayRole() {
+            Console.WriteLine($"The role of {_name} is a person.");
         }
     }
 }

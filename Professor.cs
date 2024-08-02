@@ -1,5 +1,5 @@
 namespace OOP {
-    class Professor : Person {
+    class Professor : Person, UniversityMemeber {
         private string _employeeId;
 
         //default constructor
@@ -31,6 +31,10 @@ namespace OOP {
         //function that prints the name of the professor that is teaching
         public void Teach() {
             Console.WriteLine($"Professor {_name} is teaching!");
+        }
+
+        public void DisplayRole() {
+            Console.WriteLine($"The role of {_name} is a professor.");
         }
     }
 }
