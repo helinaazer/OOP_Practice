@@ -1,3 +1,5 @@
+using System;
+
 namespace OOP {
     class Person {
         protected string _name;
@@ -30,6 +32,11 @@ namespace OOP {
         public void CelebrateBirthday() {
             _age++;
             Console.WriteLine($"Happy Birthday, {_name}! You turned {_age}!");
+        }
+
+        //function that calls the display function of the passed object
+        public static void PrintPersonDetails(Person p) {
+            p.Display();
         }
     }
 }

@@ -14,6 +14,9 @@ namespace OOP {
             Professor pro1 = new Professor("Alice", 40, "9876");
             pro1.Display();
             pro1.Teach();
+
+            Person.PrintPersonDetails(s1);
+            Person.PrintPersonDetails(pro1);
         }
     }
 }

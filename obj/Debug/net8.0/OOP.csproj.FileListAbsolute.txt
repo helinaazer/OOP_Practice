@@ -12,3 +12,4 @@ C:\My Folders\Projects\Projects\CAP\OOP\obj\Debug\net8.0\refint\OOP.dll
 C:\My Folders\Projects\Projects\CAP\OOP\obj\Debug\net8.0\OOP.pdb
 C:\My Folders\Projects\Projects\CAP\OOP\obj\Debug\net8.0\OOP.genruntimeconfig.cache
 C:\My Folders\Projects\Projects\CAP\OOP\obj\Debug\net8.0\ref\OOP.dll
+C:\My Folders\Projects\Projects\CAP\OOP\obj\Debug\net8.0\OOP.sourcelink.json
