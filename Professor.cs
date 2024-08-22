@@ -33,7 +33,7 @@ namespace OOP {
             Console.WriteLine($"Professor {_name} is teaching!");
         }
 
-        public void DisplayRole() {
+        public new void DisplayRole() {
             Console.WriteLine($"The role of {_name} is a professor.");
         }
     }
